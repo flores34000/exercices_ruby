@@ -1,4 +1,10 @@
+# puts "Bonjour toi !"
+# nombre = gets.chomp.to_i
+# nombremoins = nombre - 1
+# nombremoins.times do
+#     puts "Bonjour toi !"
+# end
+
 puts "Donne moi un nombre "
 nombre = gets.chomp.to_i
 2.upto(nombre){puts "Boujour toi"}
-# commence a 2 pour retirer - 1 au nombre de fois qu'on affiche
